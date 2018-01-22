@@ -26,7 +26,7 @@ $data = array(
 	<head>
 		<title><?php echo $data['fname']."&nbsp;".$data['lname']?> - Ihre neue Signatur </title>
                 <script src="https://use.fontawesome.com/b7915dd188.js"></script>
-                <script src="js/clipboard.js"></script>
+                <script src="js/clipboard.min.js"></script>
 <style>
 body {
 background: #FDFDF6;
