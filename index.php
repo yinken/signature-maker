@@ -87,93 +87,31 @@ $shortURL = $domain;
 					i.A. <?php echo $data['fname']."&nbsp;".$data['lname']?>
 				</p>
 				<br><br>
-				<style>
-				@media screen and (min-width: 601px) {
-				    .container {
-				        width: 660px!important;
-				    }
-				}
-				</style>
-
-				<!--[if (gte mso 9)|(IE)]>
-				<table width="600" align="center" cellpadding="0" cellspacing="0" border="0">
-				    <tr>
-				        <td>
-				<![endif]-->
-				<table class="container" width="100%" cellpadding="0" cellspacing="0" style="max-width: 660px;">
-				    <tr>
-				        <td style="text-align: center; vertical-align: top; font-size: 0;">
-				            <!--[if (gte mso 9)|(IE)]>
-				            <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
-				                <tr>
-				                    <td>
-				            <![endif]-->
-				            <div style="width: 300px; display: inline-block; vertical-align: top;">
-				                <table width="100%" height="180px" border="0" cellpadding="0" cellspacing="0">
-				                    <tr>
-				                        <td style="font-size: 12px;background-color:#ffffff;color:#000000;padding:10px;">
-				                          <table border="0" cellpadding="0" cellspacing="0" style="background: none; border-width: 0px; border: 0px; margin: 0; padding: 0;border-collapse:collapse">
-				                  					<tr>
-																			<td colspan="2" style="padding:0; color: #000000; font-size: 13px; text-align:left">
-																				<p style="margin-top:0;margin-bottom:.5em;font-family: Arial, Helvetica, sans-serif;">
-																					<b><?php echo $data['fname']?>&nbsp;<?php echo $data['lname']?></b><br>
-																					<?php echo $data['position']?>
-																				</p>
-																				<p style="margin-top:.5em;margin-bottom:.5em;font-family: Arial, Helvetica, sans-serif;">
-																					<b><?php echo $data['location']?></b><br>
-																					<?php echo $data['street']?><br>
-																					<?php echo $data['postal_code']?> Berlin - Germany
-																				</p>
-																				<p style="margin-top:.5em;margin-bottom:.5em;font-family: Arial, Helvetica, sans-serif;">
-																					<?php echo $data['phone']?><br>
-																					<a href="<?php echo $data['email']?>" style="color: #667997; text-decoration: none; font-weight: normal; font-size: 13px;font-family: Arial, Helvetica, sans-serif;"><b><?php echo $data['email']?></b></a>
-																				</p>
-																				<p style="margin-top:.5em;margin-bottom:.5em;font-family: Arial, Helvetica, sans-serif;">
-																					<a href="<?php echo $data['promo_url']?>" style="color: #667997; text-decoration: none; font-weight: normal; font-size: 13px;font-family: Arial, Helvetica, sans-serif;"><b><?php echo $shortURL?></b></a>
-																				</p>
-																				<p style="margin-top:.5em;margin-bottom:0;font-family: Arial, Helvetica, sans-serif;">
-																					<?php echo $data['default_slogan']?>
-																				</p>
-																			</td>
-				                  					</tr>
-				                  				</table>
-				                        </td>
-				                    </tr>
-				                </table>
-				            </div>
-				            <!--[if (gte mso 9)|(IE)]>
-				            </td>
-				            <td>
-				            <![endif]-->
-				            <div style="width: 300px; display: inline-block; vertical-align: top;overflow:hidden;">
-				                <table width="100%" height="180px" border="0" cellpadding="0" cellspacing="0">
-				                    <tr>
-				                        <td style="font-size: 12px;background-color:#<?php echo $data['background_color']?>;padding:10px;">
-				                          <table border="0" align="center" cellpadding="0" cellspacing="0" style="background: none; border-width: 0px; border: 0px; margin: 0; padding: 0;border-collapse:collapse;margin: 0 auto;">
-
-				                						<tr>
-				                							<td colspan="2" style="padding:10px; color: #<?php echo $data['em_text_color']?>; font-size: 13px; font-family: Arial, Helvetica, sans-serif;text-align:center"><a href="<?php echo $data['promo_url']?>" style="color: #<?php echo $data['text_color']?>; text-decoration: none; font-weight: normal; font-size: 13px;font-family: Arial, Helvetica, sans-serif;"><b><?php echo $data['promo_text']?></b></a></td>
-				                						</tr>
-				                					</table>
-				                        </td>
-				                    </tr>
-				                </table>
-				            </div>
-				        </td>
-				    </tr>
-						<tr>
-							<td style="padding:5px;text-align:center">
-								<p style="font-size: 10px; font-family: Arial, Helvetica, sans-serif;color:#999999"> The Mandala Hotel GmbH. Sitz der Gesellschaft Berlin. Amtsgericht Charlottenburg HRB 68 438.<br> Gesch&auml;ftsf&auml;hrer Lutz Hesse &amp; Christian Andresen</p>
-							</td>
-						</tr>
-				</table>
-				<!--[if (gte mso 9)|(IE)]>
-				        </td>
-				    </tr>
-				</table>
-				<![endif]-->
-
-
+				<p style="margin-top:0;margin-bottom:.5em;font-family: Arial, Helvetica, sans-serif;font-size: 13px;">
+					<b><?php echo $data['fname']?>&nbsp;<?php echo $data['lname']?></b><br>
+					<?php echo $data['position']?>
+				</p>
+				<p style="margin-top:.5em;margin-bottom:.5em;font-family: Arial, Helvetica, sans-serif;font-size: 13px;">
+					<b><?php echo $data['location']?></b><br>
+					<?php echo $data['street']?><br>
+					<?php echo $data['postal_code']?> Berlin - Germany
+				</p>
+				<p style="margin-top:.5em;margin-bottom:.5em;font-family: Arial, Helvetica, sans-serif;font-size: 13px;">
+					<?php echo $data['phone']?><br>
+					<a href="<?php echo $data['email']?>" style="color: #<?php echo $data['text_color']?>; text-decoration: none; font-weight: normal; font-size: 13px;font-family: Arial, Helvetica, sans-serif;"><b><?php echo $data['email']?></b></a>
+				</p>
+				<p style="margin-top:.5em;margin-bottom:.5em;font-family: Arial, Helvetica, sans-serif;">
+					<a href="<?php echo $data['promo_url']?>" style="color: #000000; text-decoration: none; font-weight: normal; font-size: 13px;font-family: Arial, Helvetica, sans-serif;"><b><?php echo $shortURL?></b></a>
+				</p>
+				<p style="margin-top:.5em;margin-bottom:0;font-family: Arial, Helvetica, sans-serif;font-size: 13px;">
+					<?php echo $data['default_slogan']?>
+				</p>
+				<p>
+					<a href="<?php echo $data['promo_url']?>" style="color: #<?php echo $data['text_color']?>; text-decoration: none; font-weight: normal; font-size: 13px;font-family: Arial, Helvetica, sans-serif;"><b><?php echo $data['promo_text']?>&nbsp;&#187;</b></a>
+				</p>
+				<p style="font-size: 10px; font-family: Arial, Helvetica, sans-serif;color:#999999">
+					The Mandala Hotel GmbH. Sitz der Gesellschaft Berlin. Amtsgericht Charlottenburg HRB 68 438.<br> Gesch&auml;ftsf&uuml;hrer Lutz Hesse &amp; Christian Andresen
+				</p>
 			</div>
 
 
