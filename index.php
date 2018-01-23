@@ -98,19 +98,16 @@ $shortURL = $domain;
 				</p>
 				<p style="margin-top:.5em;margin-bottom:.5em;font-family: Arial, Helvetica, sans-serif;font-size: 13px;">
 					<?php echo $data['phone']?><br>
-					<a href="<?php echo $data['email']?>" style="color: #<?php echo $data['text_color']?>; text-decoration: none; font-weight: normal; font-size: 13px;font-family: Arial, Helvetica, sans-serif;"><b><?php echo $data['email']?></b></a>
+					<a href="mailto:<?php echo $data['email']?>" style="color: #<?php echo $data['text_color']?>; text-decoration: none; font-weight: normal; font-size: 13px;font-family: Arial, Helvetica, sans-serif;"><b><?php echo $data['email']?></b></a>
 				</p>
-				<p style="margin-top:.5em;margin-bottom:.5em;font-family: Arial, Helvetica, sans-serif;">
-					<a href="<?php echo $data['promo_url']?>" style="color: #000000; text-decoration: none; font-weight: normal; font-size: 13px;font-family: Arial, Helvetica, sans-serif;"><b><?php echo $shortURL?></b></a>
+				<p style="margin-top:.5em;margin-bottom:.5em;font-family: Arial, Helvetica, sans-serif;font-size: 13px">
+					<a href="<?php echo $data['default_url']?>" style="color: #000000; text-decoration: none; font-weight: normal; "><b><?php echo $shortURL?></b></a>&nbsp;&nbsp;<?php echo $data['default_slogan']?>
 				</p>
-				<p style="margin-top:.5em;margin-bottom:0;font-family: Arial, Helvetica, sans-serif;font-size: 13px;">
-					<?php echo $data['default_slogan']?>
+				<p style="margin-top:.5em;margin-bottom:1em;font-size: 13px; font-family: Arial, Helvetica, sans-serif;">
+					<a href="<?php echo $data['promo_url']?>" style="color: #<?php echo $data['text_color']?>; text-decoration: none; font-weight: normal;"><b><?php echo $data['promo_text']?>&nbsp;&#187;</b></a>
 				</p>
-				<p>
-					<a href="<?php echo $data['promo_url']?>" style="color: #<?php echo $data['text_color']?>; text-decoration: none; font-weight: normal; font-size: 13px;font-family: Arial, Helvetica, sans-serif;"><b><?php echo $data['promo_text']?>&nbsp;&#187;</b></a>
-				</p>
-				<p style="font-size: 10px; font-family: Arial, Helvetica, sans-serif;color:#999999">
-					The Mandala Hotel GmbH. Sitz der Gesellschaft Berlin. Amtsgericht Charlottenburg HRB 68 438.<br> Gesch&auml;ftsf&uuml;hrer Lutz Hesse &amp; Christian Andresen
+				<p style="margin-top:.5em;font-size: 8px; font-family: Arial, Helvetica, sans-serif;color:#999999">
+					The Mandala Hotel GmbH &#8226; Sitz der Gesellschaft Berlin &#8226; Amtsgericht Charlottenburg HRB 68 438<br> Gesch&auml;ftsf&uuml;hrer Lutz Hesse &amp; Christian Andresen
 				</p>
 			</div>
 
