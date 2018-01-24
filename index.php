@@ -80,6 +80,7 @@ $shortURL = $domain;
 			<h1> Herzlichen Glückwunsch, <?php echo $data['fname']?><h1>
 				<h2> Hier ist Ihre neue Signatur</h2>
 				<p>Nun einfach in die Zwischenablage kopieren, danach in Ihre Outlook-Signatur einfügen.</p>
+				<p><a href="https://www.google.de/search?q=outlook+signatur+%C3%A4ndern" target="_blank">Wie geht das?</a></p>
 		</div>
 		<div class="wrapper">
 			<div id="sig">
