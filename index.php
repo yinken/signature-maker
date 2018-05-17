@@ -144,6 +144,9 @@ foreach ($smLinks as $key => $value) {
 				<p style="margin-top:.5em;font-size: 8px; font-family: Arial, Helvetica, sans-serif;color:#999999">
 					The Mandala Hotel GmbH &#8226; Sitz der Gesellschaft Berlin &#8226; Amtsgericht Charlottenburg HRB 68 438<br> Gesch&auml;ftsf&uuml;hrer Lutz Hesse &amp; Christian Andresen
 				</p>
+				<p style="margin-top:.5em;font-size: 8px; font-family: Arial, Helvetica, sans-serif;color:#999999">
+					<em>Hinweis zum Datenschutz:</em> Wir sind sehr darum bemüht, all unseren Interessenten, Kunden und Geschäftspartnern einen ausgezeichneten Service zu bieten.<br>Dazu gehört auch der Schutz ihrer Daten. Informationen zur Erhebung und Verarbeitung personenbezogener Daten können Sie unserer <a href="<?php echo $data['default_url']?>/de/datenschutz">Datenschutzerklärung</a> entnehmen.
+				</p>
 			</div>
 		</div>
 		<div class="cta">
