@@ -168,7 +168,7 @@ foreach ($smLinks as $key => $value) {
 									<a href="<?php echo $data['default_url'].$data['utm']?>" style="color: #000000; text-decoration: none; font-weight: normal; "><b><?php echo $shortURL?></b></a>&nbsp;&nbsp;<?php echo $data['default_slogan']?>
 								</p>
 								<p style="margin-top:.5em;margin-bottom:1em;font-size: 13px; font-family: Arial, Helvetica, sans-serif;">
-									<a href="<?php echo $data['promo_url']?>" style="color: #<?php echo $data['text_color']?>; text-decoration: none; font-weight: normal;"><b><?php echo $data['promo_text']?>&nbsp;&#187;</b></a>
+									<a href="<?php echo $data['promo_url'].$data['utm']?>" style="color: #<?php echo $data['text_color']?>; text-decoration: none; font-weight: normal;"><b><?php echo $data['promo_text']?>&nbsp;&#187;</b></a>
 								</p>
 								<p style="margin-top:.5em;font-size: 8px; font-family: Arial, Helvetica, sans-serif;color:#999999">
 									The Mandala Hotel GmbH &#8226; Sitz der Gesellschaft Berlin &#8226; Amtsgericht Charlottenburg HRB 68 438<br> Gesch&auml;ftsf&uuml;hrer Lutz Hesse &amp; Christian Andresen
